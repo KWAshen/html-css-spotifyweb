@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Document</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+  <title>spotify</title>
 </head>
 
 
@@ -19,27 +21,36 @@
   <!-- side bar  -->
   <aside class="sidebar ">
     <!-- logo  -->
-    <img src="img/logo.svg" alt="logo spotify" class="imgLogo">
+    <img src="img/logo.svg" alt="logo spotify" class="imgLogo menu-text">
+    <img src="img/logo-small.svg" alt="logo spotify" class="imgLogoSmall">
     <!-- 3 menu  -->
     <div class="menuAside">
       <ul>
         <li class="loghiDist greyText"><img src="img/home.svg" alt="home" class="loghiMenu">
-          Home
+          <span class="menu-text">
+            Home
+          </span>
         </li>
         <li class="loghiDist greyText"><img src="img/search.svg" alt="search" class="loghiMenu">
-          Cerca
+          <span class="menu-text">
+            Cerca
+          </span>
         </li>
-        <li class="loghiDist greyText"><img src="img/libreria.svg" alt="libreria" class="loghiMenu">La tua libreria</li>
+        <li class="loghiDist greyText"><img src="img/libreria.svg" alt="libreria" class="loghiMenu">
+          <span class="menu-text">
+            La tua libreria
+          </span>
+        </li>
       </ul>
     </div>
-    <div class="playlistMenu">
+    <div class="playlistMenu menu-text">
       <h5 class="h5menu">PLAYLIST</h5>
       <div class="creaPlaylist">
         <h4 class="greyText"> Crea Playlist</h4>
       </div>
     </div>
     <div class="nomePlaylist ">
-      <ul>
+      <ul class="menu-text">
         <li class="greyText liNomePlaylist">Nome playlist</li>
         <li class="greyText liNomePlaylist">Nome playlist</li>
         <li class="greyText liNomePlaylist">Nome playlist</li>
@@ -50,6 +61,136 @@
       </ul>
     </div>
   </aside>
+  <!-- fine side bar  -->
+  <!-- navbar -->
+  <!-- <nav>
+    <div></div>
+    <div></div>
+    <div></div>
+  </nav> -->
+  <!-- fine nav  -->
+
+  <main>
+    <!-- categorie  -->
+    <section class="container">
+      <ul class="card-container category ">
+        <li class="greyText">IN EVIDENZA</li>
+        <li class="greyText">PODCAST</li>
+        <li class="greyText">CLASSIFICHE</li>
+        <li class="greyText">GENERI E MOOD </li>
+        <li class="greyText">NUOVE USCITE</li>
+        <li class="greyText">SCOPRI</li>
+      </ul>
+    </section>
+    <!-- recently played  -->
+    <section>
+      <div class="container">
+        <h2>Recently played</h2>
+        <ul class="card-container">
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- creato pr te  -->
+    <section>
+      <div class="container">
+        <h2>Creato per John Doe</h2>
+        <small>Più ascolti, più curati saranno i suggerimenti.</small>
+        <ul class="card-container">
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- Artisti  -->
+    <section>
+      <div class="container">
+        <h2>Artisti più popolari</h2>
+        <small>Più ascolti, più curati saranno i suggerimenti.</small>
+        
+        <ul class="card-container">
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+          <li class="card">
+            <img src="./img/metal_lifting.jpg" alt="cover" class="cardImg">
+            <p>Lorem ipsum dolor sit.<br><small>Lorem, ipsum.</small></p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+  </main>
 
 </body>
 
