@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  /* sfondo scuro stile Spotify */
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* header  */
+header {
+  height: 75px;
+  background-color: #080B12;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.headerBtn {
+  margin-right: 10px;
+}
+
+.upgradeBtn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.upgradeBtn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* fine header */
+
+/* side bar */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #000;
+  margin-top: -75px;
+  position: fixed;
+  padding: 10px;
+  padding-left: 15px;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.imgLogo {
+  width: 100px;
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.menuAside {
+  text-decoration: none;
+}
+
+.loghiMenu {
+  width: 25px;
+  height: 25px;
+
+}
+
+.loghiDist {
+  margin: 5px 0;
+}
+
+.h5menu {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+
+}
+
+.greyText {
+  color: #747474;
+
+}
+
+.greyText:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.liNomePlaylist{
+  margin: 10px 0;
+}
